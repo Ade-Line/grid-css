@@ -1,18 +1,29 @@
-#wrapper{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100%;
-}
+/* GENERAL */
 
 .element1{
-    grid-column-start: 1;
+    background-color: aqua;
+    height: 25px;
 }
+
 .element2{
-    grid-column-start: 2;
+    background-color: pink;
+    height: 25px;
 }
+
 .element3{
-    grid-column-start: 3;
+    background-color: rgb(34, 207, 34);
+    height: 25px;
 }
+
 .element4{
-    grid-column-start: 4;
+    background-color: grey;
+    height: 25px;
 }
+
+/* SECTION */
+#wrapper{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
