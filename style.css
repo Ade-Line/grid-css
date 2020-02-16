@@ -3,27 +3,93 @@
 .element1{
     background-color: aqua;
     height: 25px;
+    border: 1px solid;
+    text-align: center;
 }
 
 .element2{
     background-color: pink;
     height: 25px;
+    border: 1px solid;
+    text-align: center;
 }
 
 .element3{
     background-color: rgb(34, 207, 34);
     height: 25px;
+    border: 1px solid;
+    text-align: center;
 }
 
 .element4{
     background-color: grey;
     height: 25px;
+    border: 1px solid;
+    text-align: center;
 }
 
-/* SECTION */
+/* SECTION 
+===============   Exemple N°1*/
 #wrapper{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
+
+/* ==============  Exemple N°2 */
+
+/* .element1{
+    grid-column-start: 3;
+    grid-column-end: 5;
+} */
+
+/* OU  */
+
+/* .element1{
+    grid-column-start: 3;
+    grid-column-end: span 2;
+} */
+
+/* ==============  Exemple N°3 */
+
+/* .element2{
+    grid-column-start: 1;
+} */
+
+/* ==============  Exemple N°4 */
+
+/* .element1{
+    grid-column: 2 / 4;
+} */
+
+/* ==============  Exemple N°5 */
+
+/* .element1{
+    grid-row-start: 1;
+}
+.element2{
+    grid-row-start: 2;
+}
+.element3{
+    grid-row-start: 3;
+}
+.element4{
+    grid-row-start: 4;
+} */
+
+/* ==============  Exemple N°5 */
+
+/* .element1{
+    grid-column-start: 2;
+}
+.element3{
+    grid-row: 3 / 5 ;
+} */
+
+/* ==============  Exemple N°6 */
+
+/* .element3{
+    grid-column: 2;
+    grid-row: 5;
+}  */
